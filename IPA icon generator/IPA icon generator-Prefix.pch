@@ -1,0 +1,7 @@
+#import <CoreFoundation/CoreFoundation.h>
+#import <CoreFoundation/CFPlugInCOM.h>
+#import <CoreServices/CoreServices.h>
+#import <QuickLook/QuickLook.h>
+#ifdef __OBJC__
+#	import <Cocoa/Cocoa.h>
+#endif
