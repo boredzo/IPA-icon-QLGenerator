@@ -5,6 +5,8 @@ This is a Quick Look generator plug-in for OS X to enable QL previews and thumbn
 ![What a Finder window full of IPAs looks like with this plug-in installed.](http://boredzo.org/ipa-qlgenerator/IPAQLGen-Finder.png)
 ![What a Dock “grid” pop-up full of IPAs looks like with this plug-in installed.](http://boredzo.org/ipa-qlgenerator/IPAQLGen-DockPopUp.png)
 
+This generator uses the IPA's iTunesArtwork file as the preview/thumbnail data, with the effect that the file's preview/thumbnail is the iOS application's icon, rather than the generic iTunes IPA icon.
+
 ### Installation
 
 First, open the Home Library folder. To do this, open the Finder's Go menu, hold down the Option key, and choose Library.
