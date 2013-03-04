@@ -60,7 +60,10 @@
 	int status = 0;
 	waitpid(unzip.processIdentifier, &status, /*flags*/ 0);
 
-	unsigned long length = strtoul(stdoutData.bytes, NULL, 10);
+	void const *bytes = stdoutData.bytes;
+	unsigned long length = bytes
+		? strtoul(bytes, NULL, 10)
+		: 0;
 	return length;
 }
 
