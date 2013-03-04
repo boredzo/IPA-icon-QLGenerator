@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B2A60C79ED46CD71B63F7E9 /* PRHIconFromIPAExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A630B66BC790BD39AE48B /* PRHIconFromIPAExtractor.m */; };
+		1B2A6B5CED068F8EF0B30B93 /* PRHIconFromIPAExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2A68AA5AE0F78BED8366E7 /* PRHIconFromIPAExtractor.h */; };
 		314AFC3B16E453260027A92A /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314AFC3A16E453260027A92A /* QuickLook.framework */; };
 		314AFC3D16E453260027A92A /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314AFC3C16E453260027A92A /* ApplicationServices.framework */; };
 		314AFC3F16E453260027A92A /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314AFC3E16E453260027A92A /* CoreServices.framework */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B2A630B66BC790BD39AE48B /* PRHIconFromIPAExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRHIconFromIPAExtractor.m; sourceTree = "<group>"; };
+		1B2A68AA5AE0F78BED8366E7 /* PRHIconFromIPAExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRHIconFromIPAExtractor.h; sourceTree = "<group>"; };
 		314AFC3716E453260027A92A /* IPA icon generator.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IPA icon generator.qlgenerator"; sourceTree = BUILT_PRODUCTS_DIR; };
 		314AFC3A16E453260027A92A /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		314AFC3C16E453260027A92A /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
@@ -81,6 +85,8 @@
 				314AFC4A16E453260027A92A /* GeneratePreviewForURL.m */,
 				314AFC4C16E453260027A92A /* main.c */,
 				314AFC4316E453260027A92A /* Supporting Files */,
+				1B2A630B66BC790BD39AE48B /* PRHIconFromIPAExtractor.m */,
+				1B2A68AA5AE0F78BED8366E7 /* PRHIconFromIPAExtractor.h */,
 			);
 			path = "IPA icon generator";
 			sourceTree = "<group>";
@@ -102,6 +108,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B2A6B5CED068F8EF0B30B93 /* PRHIconFromIPAExtractor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +189,7 @@
 				314AFC4916E453260027A92A /* GenerateThumbnailForURL.m in Sources */,
 				314AFC4B16E453260027A92A /* GeneratePreviewForURL.m in Sources */,
 				314AFC4D16E453260027A92A /* main.c in Sources */,
+				1B2A60C79ED46CD71B63F7E9 /* PRHIconFromIPAExtractor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
